@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="960"
+   height="960"
+   viewBox="0 0 253.99999 253.99999"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="reddit copy.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.0444209"
+     inkscape:cx="464.37216"
+     inkscape:cy="556.76786"
+     inkscape:window-width="1920"
+     inkscape:window-height="972"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch3"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#92ccf1;stroke-width:0.41036873;fill-opacity:1;stroke-dasharray:none"
+       id="rect2"
+       width="230.35463"
+       height="230.35463"
+       x="11.822678"
+       y="11.822678"
+       ry="76.784882" />
+    <path
+       id="rect1"
+       style="display:inline;fill:#0e99dd;fill-opacity:1;stroke-width:0.452628"
+       d="M 84.666663 0 C 37.761378 0 0 37.761378 0 84.666663 L 0 169.33333 C 0 216.23861 37.761378 253.99999 84.666663 253.99999 L 169.33333 253.99999 C 216.23861 253.99999 253.99999 216.23861 253.99999 169.33333 L 253.99999 84.666663 C 253.99999 37.761378 216.23861 0 169.33333 0 L 84.666663 0 z M 88.607508 11.822534 L 165.39248 11.822534 C 207.93126 11.822534 242.17746 46.068726 242.17746 88.607508 L 242.17746 165.39248 C 242.17746 207.93126 207.93126 242.17746 165.39248 242.17746 L 88.607508 242.17746 C 46.068726 242.17746 11.822534 207.93126 11.822534 165.39248 L 11.822534 88.607508 C 11.822534 46.068726 46.068726 11.822534 88.607508 11.822534 z " />
+    <path
+       id="path1"
+       style="display:inline;fill:#c9d9fb;fill-opacity:1;fill-rule:nonzero;stroke:#0e99dd;stroke-width:11.50011413;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       d="m 170.30037,58.607987 c -9.43608,-0.284912 -18.98355,2.976006 -26.40544,9.849844 -9.57473,8.865524 -13.63207,22.081091 -10.66186,34.692719 -29.63646,-1.45962 -57.244503,-15.250684 -75.956106,-37.935783 -9.779078,16.594997 -4.787385,37.820463 11.406461,48.483473 -5.867447,-0.17256 -11.603254,-1.7328 -16.726318,-4.54417 v 0.46018 c 0,17.28525 12.369857,32.16929 29.56351,35.59185 -5.422262,1.45962 -11.114489,1.67548 -16.638936,0.62569 4.831167,14.79027 18.660474,24.92096 34.431066,25.21575 -13.055809,10.10225 -29.177056,15.58794 -45.772298,15.57386 -2.933736,-0.007 -5.860247,-0.17932 -8.77207,-0.52444 16.857971,10.65587 36.467402,16.30711 56.492631,16.27836 v 0.0291 c 67.78948,0 104.8624,-55.33642 104.8624,-103.316659 0,-1.574654 1e-5,-3.134841 -0.10956,-4.695131 h 6.2e-4 l 12.39432,-12.234325 -12.28539,-3.374096 3.13653,-12.159821 -13.2218,3.407975 C 189.06141,62.723517 179.73644,58.892887 170.30036,58.607975 Z"
+       sodipodi:nodetypes="scccccscccccccsccccccs"
+       inkscape:label="path1" />
+    <path
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0e99dd;stroke-width:9.36625;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       d="m 165.42459,76.505708 c 0,0 6.58659,5.066604 13.93316,5.826593 7.34657,0.759992 4.81327,9.119886 -4.81327,10.893197"
+       id="path7" />
+    <circle
+       style="fill:#ff5d5d;fill-opacity:1;stroke:#ff0300;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0"
+       id="circle10"
+       cx="160.74147"
+       cy="100.30694"
+       r="7.5235219" />
+  </g>
+</svg>
