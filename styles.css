@@ -13,9 +13,9 @@
     --accent-red: hsl(350, 100%, 60%);
     --accent-orange: hsl(27, 90%, 55%);
     --accent-yellow: hsl(51, 100%, 47%);
-    --accent-green: hsl(146, 69%, 49%); 
+    --accent-green: hsl(146, 69%, 49%);
     --accent-teal: hsl(170, 56%, 48%);
-    --accent-blue: hsl(252, 68%, 48%);;
+    --accent-blue: hsl(252, 68%, 48%);
     --accent-mauve: hsl(280, 73%, 47%);
 }
 
@@ -30,6 +30,11 @@ h1 {
     font-size: 60pt;
     margin: 0;
     margin-bottom: 3px;
+    color: var(--background);
+    text-shadow: -2px  2px 0.5px #000,
+                  4px  4px 0.5px #000,
+                  2px -2px 0.5px #000,
+                 -2px -2px 0.5px #000;
 }
 
 .spacer {
@@ -64,7 +69,8 @@ h1 {
 }
 
 #sns-container {
-    font-size: 40px;;
+    font-size: 40px;
+    ;
     margin-top: -10px;
     margin-bottom: -10px;
 }
