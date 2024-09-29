@@ -5,7 +5,7 @@
     --text: hsl(243, 80%, 10%);
     --subtext: hsl(243, 20%, 40%);
     --background: hsl(240, 60%, 99%);
-    --primary: hsl(252, 68%, 48%);
+    --primary: hsl(240, 60%, 55%);
     --secondary: hsl(243, 100%, 93%);
     --accent: hsl(350, 100%, 60%);
 
@@ -15,19 +15,41 @@
     --accent-yellow: hsl(51, 100%, 47%);
     --accent-green: hsl(146, 69%, 49%);
     --accent-teal: hsl(170, 56%, 48%);
-    --accent-blue: hsl(252, 68%, 48%);
+    --accent-blue: hsl(240, 60%, 55%);
     --accent-mauve: hsl(280, 73%, 47%);
 }
 
 body {
-    background-color: var(--background);
+    background-color: var(--accent-yellow);
+    padding: 30px;
     color: var(--text);
     font-family: 'Inter Tight';
 }
 
+img {
+    user-select: none;
+}
+
+#main-container {
+    margin-inline: auto;
+    padding: 10px;
+    border-radius: 20px;
+    border: 10px solid var(--text);
+    border-color: var(--text);
+    background-clip: padding-box;
+    max-width: 500pt;
+    background-color: var(--background);
+}
+
+.vines {
+    margin: -15px;
+    width: 50pt;
+}
+
 h1 {
     font-weight: 800;
-    font-size: 60pt;
+    font-size: 10vw;
+    white-space: nowrap;
     margin: 0;
     margin-bottom: 3px;
     color: var(--background);
@@ -43,17 +65,17 @@ h1 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin-top: -2px;
-    margin-bottom: -2px;
+    margin: 0;
 }
 
 .headStats {
-    background-image: url('./src/spacer-wave.svg');
+    background-image: url('./src/spacer-wave-1.svg');
 }
 
 #head {
     text-align: center;
     max-width: initial;
+    margin: -10px;
     padding: 1rem;
     width: 100%;
     height: min-content;
@@ -61,16 +83,14 @@ h1 {
 }
 
 .sns {
-    font-size: 40pt;
+    cursor: pointer;
+    margin: 5pt 2px 0px 2px;
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    letter-spacing: -3pt;
 }
 
 #sns-container {
-    font-size: 40px;
-    ;
     margin-top: -10px;
     margin-bottom: -10px;
 }
@@ -83,8 +103,9 @@ th {
     background-color: var(--primary);
 }
 
-.table-right::before {
-    content: " | ";
+hr.dotted-link {
+    
+    border-style: dotted;
 }
 
 .cat-selector {
@@ -94,6 +115,21 @@ th {
     color: var(--background);
     background-color: var(--primary);
     font-weight: 600;
+}
+
+.stuffs-grid {
+    width: fit-content;
+    height: fit-content;
+    border: 8px solid var(--text);
+    border-radius: 10px;
+    background-color: var(--primary);
+    padding: 0;
+}
+
+.stuffs-images {
+    border: 8px solid var(--text);
+    border-radius: 10px;
+    margin: 8px;
 }
 
 #footer {
