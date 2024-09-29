@@ -117,19 +117,43 @@ hr.dotted-link {
     font-weight: 600;
 }
 
+.cat-selected {
+    color: var(--accent);
+}
+
 .stuffs-grid {
     width: fit-content;
     height: fit-content;
     border: 8px solid var(--text);
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: var(--primary);
     padding: 0;
 }
 
 .stuffs-images {
     border: 8px solid var(--text);
-    border-radius: 10px;
-    margin: 8px;
+    border-radius: 20px;
+}
+
+/** Image orientation-based margins */
+.img-l {
+    margin-right: 4px;
+    margin-left: 8px;
+}
+
+.img-r {
+    margin-left: 4px;
+    margin-right: 8px;
+}
+
+.img-up {
+    margin-bottom: 4px;
+    margin-top: 8px;
+}
+
+.img-down {
+    margin-top: 4px;
+    margin-bottom: 8px;
 }
 
 #footer {
