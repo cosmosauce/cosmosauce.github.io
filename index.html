@@ -1,187 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spaghetti Loaf</title>
-    <link rel="stylesheet" href="styles.css">
-    <!-- Tippy.js Links -->
-    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css" />
-    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/dist/svg-arrow.css" />
-    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/themes/light.css" />
-    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/shift-away-subtle.css">
-</head>
-
-<body>
-    <div id="main-container">
-        <div class="section" id="head">
-            <img src="src/vines-1.png" alt="" class="vines" style="float: left;">
-            <img src="src/vines-2.png" alt="" class="vines" style="float: right;">
-            <h1 style="margin-bottom: -25px;">
-                Spaghetti Loaf
-            </h1>
-            <hr style="color: hsl(243, 20%, 40%)">
-            <div id="sns-container">
-                <a href="https://www.reddit.com/user/Starry_Tacos/" target="_blank" class="sns"
-                    data-tippy-content="Reddit">
-                    <img src="src/red-circle.svg" alt="" width="30pt" height="30pt">
-                </a>
-
-                <a href="mailto:wesley.ky.ho.app@gmail.com" target="_blank" class="sns" data-tippy-content="Mail">
-                    <img src="src/orange-circle.svg" alt="" width="30pt" height="30pt">
-                </a>
-
-                <a href="https://x.com/cosmo_sauce" target="_blank" class="sns" data-tippy-content="Twitter">
-                    <img src="src/teal-circle.svg" alt="" width="30pt" height="30pt">
-                </a>
-
-                <span class="sns" data-tippy-content="Discord">
-                    <img src="src/blue-circle.svg" alt="" width="30pt" height="30pt">
-                </span>
-
-                <span class="sns" data-tippy-content="Phone">
-                    <img src="src/green-circle.svg" alt="" width="30pt" height="30pt">
-                </span>
+      <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>CosmoSauce</title>
+            <link rel="stylesheet" href="styles.css">
+      </head>
+      <body>
+            <div id="card-container">
+                  <nav>
+                        <a href="">L I N K S</a>
+                        <a href="">W O R K S</a>
+                        <a href="">F O N T S</a>
+                  </nav>
+                  <div>
+                        <span id="main-center">
+                              <h1 id="main-text" class="main">Cosmo Sauce</h1>
+                              <h2 class="main">:D</h2>
+                        </span>
+                  </div>
+                  <footer>
+                        <span id="socials">
+                              <a href="#" class="c1 sns">● r e d d i t</a>
+                              <a href="#" class="c2 sns">● m a i l</a>
+                              <a href="#" class="c6 sns">● t w i t t e r</a>
+                              <a href="#" class="c6 sns">● d i s c o r d</a>
+                        </span>
+                        <span>
+                              Nov 1
+                           <img src="img/bday.svg" height="15px" width="15px">
+                        </span>
+                  </footer>
             </div>
-
-        </div>
-
-        <div class="spacer headStats"></div>
-
-        <div class="section" id="stats">
-            <h1>whoami</h1>
-            <table>
-                <tr>
-                    <th>Name</th>
-                    <td class="table-right">
-                        <hr class="dotted-link">
-                        Wesley Ho
-                    </td>
-                </tr>
-                <tr>
-                    <th>Birthday</th>
-                    <td class="table-right">
-                        <hr class="dotted-link">
-                        <ruby>
-                            01.<rp>(</rp>
-                            <rt>D</rt>
-                            <rp>)</rp>
-                            11.<rp>(</rp>
-                            <rt>M</rt>
-                            <rp>)</rp>
-                            2010<rp>(</rp>
-                            <rt>Y</rt>
-                            <rp>)</rp>
-                        </ruby>
-                    </td>
-                </tr>
-                <tr>
-                    <th></th>
-                    <td class="table-right">
-                        <hr class="dotted-link">
-                    </td>
-                </tr>
-                <tr>
-                    <th></th>
-                    <td class="table-right">
-                        <hr class="dotted-link">
-                    </td>
-                </tr>
-                <tr>
-                    <th></th>
-                    <td class="table-right">
-                        <hr class="dotted-link">
-                    </td>
-                </tr>
-            </table>
-        </div>
-
-        <div class="section" id="works">
-            <h1>
-                My Stuff
-            </h1>
-
-            <div>
-                <div>
-                    <span class="cat-selector" onclick="tabChange(event,'art')">A R T</span>
-                    <span class="cat-selector" onclick="tabChange(event,'projects')">P R O J E C T S</span>
-                    <span class="cat-selector" onclick="tabChange(event,'games')">G A M E S</span>
-                </div>
-
-                <div>
-                    <!-- * ART -->
-                    <div class="stuffs-grid" id="art">
-                        <div>
-                            <span>
-                                <img class="stuffs-images img-l img-up" src="src/square-placeholder.png" alt="WONDERHOI">
-                            </span>
-                            <span>
-                                <img class="stuffs-images img-r img-up" src="src/square-placeholder.png" alt="EMU">
-                            </span>
-                        </div>
-                        <div>
-                            <span>
-                                <img class="stuffs-images img-l img-down" src="src/square-placeholder.png" alt="KIRA KIRA">
-                            </span>
-                            <span>
-                                <img class="stuffs-images img-r img-down" src="src/square-placeholder.png" alt="WONDERSTAGE">
-                            </span>
-                        </div>
-                    </div>
-                    <!-- * PROJECTS -->
-                    <div class="stuffs-grid" style="display: none;" id="projects">
-                        <div>
-                            <span>
-                                <img class="stuffs-images img-l img-up" src="src/squar-placeholder.png" alt="WONDERHOI">
-                            </span>
-                            <span>
-                                <img class="stuffs-images img-r img-up" src="src/square-placeholder.png" alt="EMU">
-                            </span>
-                        </div>
-                        <div>
-                            <span>
-                                <img class="stuffs-images img-l img-down" src="src/square-placeholder.png" alt="KIRA KIRA">
-                            </span>
-                            <span>
-                                <img class="stuffs-images img-r img-down" src="src/square-placeholder.png" alt="WONDERSTAGE">
-                            </span>
-                        </div>
-                    </div>
-                    <!-- * GAMES -->
-                    <div class="stuffs-grid" style="display: none;" id="games">
-                        <div>
-                            <span>
-                                <img class="stuffs-images img-l img-up" src="src/square-placeholder.png" alt="WONDERHOI">
-                            </span>
-                            <span>
-                                <img class="stuffs-images img-r img-up" src="src/squar-placeholder.png" alt="EMU">
-                            </span>
-                        </div>
-                        <div>
-                            <span>
-                                <img class="stuffs-images img-l img-down" src="src/square-placeholder.png" alt="KIRA KIRA">
-                            </span>
-                            <span>
-                                <img class="stuffs-images img-r img-down" src="src/square-placeholder.png" alt="WONDERSTAGE">
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="section" id="footer">
-            <div>No Copyright</div>
-            <div>Published by Github</div>
-            <img id="github-mark" src="src/github-mark/github-mark.svg" alt="(Github Logo)">
-        </div>
-    </div>
-    <!-- T I P P Y - Tooltip Helper -->
-    <!-- Production -->
-    <script src="https://unpkg.com/@popperjs/core@2"></script>
-    <script src="https://unpkg.com/tippy.js@6"></script>
-    <script src="index.js"></script>
-</body>
-
+      </body>
 </html>
