@@ -1,69 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Kalnia+Glaze:wght@100..700&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap');
 
-/* Inter Tight        |  Sans-Serif Header        */
-/* Kalnia Glaze       |  Coloured Serif Display   */
-/* Noto Serif Display |  Uncoloured Serif Display */
-/* Red Hat Display    |  Main Body Text           */
-/* Zen Maru Gothic    |  CJK Characters           */
+/* Inter Tight                 |  Sans-Serif Header        */
+/* Red Hat Display             |  Main Body Text           */
+/* Zen Maru Gothic             |  CJK Characters           */
+/* Comic Shanns Mono Nerd Font |  Code Snippets            */
 
 :root{
-   --base-1: hsl(240, 30%, 28%);
-   --base-2: hsl(240, 20%, 38%);
-   --base-3: hsl(240, 12%, 54%);
-   --base-4: hsl(240, 4%, 74%);
-   --base-5: hsl(240, 2%, 88%);
-   --a-red: #;
-   --a-orange: #;
-   --a-yellow: #;
-   --a-green: #;
-   --a-teal: #;
-   --a-blue: #;
-   --a-violet: #;
+   --text:      hsl(227deg, 68%, 88%);
+   --subtext:   hsl(227deg, 27%, 72%);
+   --base-box:  hsl(230deg, 14%, 41%);
+   --base-tabs: hsl(231deg, 16%, 34%);
+   --base-card: hsl(230deg, 19%, 26%);
+   --base-bg:   hsl(232deg, 23%, 18%);
+   --a-red:     hsl(351deg, 74%, 73%);
+   --a-orange:  hsl(021deg, 86%, 73%);
+   --a-green:   hsl(105deg, 48%, 72%);
+   --a-teal:    hsl(171deg, 47%, 69%);
+   --a-blue:    hsl(199deg, 66%, 69%);
+   --shadow:    hsla(240, 30%, 28%, 0.3) 0px 50px 100px -20px, black 0px 30px 60px -30px;
 }
 
 * {
    font-family: 'Red Hat Display';
-   color: var(--base-1);
+   color: var(--text);
 }
 
 /* Colour Classes */
-.c1 {
+.acc1 {
    /* red */
-   colour: var(--a-red);
+   color: var(--a-red);
 }
 
-.c2 {
+.acc2 {
    /* orange */
-   colour: var(--a-orange);
+   color: var(--a-orange);
 }
 
-.c3 {
-   /* yellow */
-   colour: var(--a-yellow);
-}
-
-.c4 {
+.acc3 {
    /* green */
-   colour: var(--a-green);
+   color: var(--a-green);
 }
 
-.c5 {
+.acc4 {
    /* teal */
-   colour: var(--a-teal);
+   color: var(--a-teal);
 }
 
-.c6 {
+.acc5 {
    /* blue */
-   colour: var(--a-blue);
-}
-
-.c7 {
-   /* violet */
-   colour: var(--a-violet);
+   color: var(--a-blue);
 }
 
 body {
-   background-color: var(--base-4);
+   background-color: var(--base-bg);
    /* og: e9e9e9 */
    background-repeat: no-repeat;
    background-position: center;
@@ -75,19 +64,32 @@ body {
    min-width: max-content;
    min-height: fit-content;
    margin: 20px;
-   padding: 0;
+   padding: 10px;
    border-radius: 10px;
-   background-color: white;
-   box-shadow: rgba(50, 50, 93, 0.3) 0px 50px 100px -20px, black 0px 30px 60px -30px;
+   background-color: var(--base-card);
+   box-shadow: var(--shadow);
 }
 
+/* Navigation Bar */
 nav {
    font-family: 'Red Hat Display';
    width: auto;
-   padding: 20px;
-   background-color: var(--base-5);
+   padding: 10px;
+   border-radius: 10px;
+   background-color: var(--base-tabs);
+   box-shadow: var(--shadow);
 }
 
+#quote {
+   color: var(--subtext);
+   font-style: italic;
+}
+
+#navlinks {
+   float: right;
+}
+
+/* Main Section */
 .main {
    max-width: fit-content;
    margin-left: auto;
@@ -95,20 +97,43 @@ nav {
 }
 
 #main-text {
-   font-family: 'Kalnia Glaze';
-   margin-bottom: -10px;
+   font-weight: 600;
+   margin-bottom: 10px;
+   margin: 10px;
 }
 
-#main-center {
-   max-width: fit-content;
-   margin-left: auto;
-   margin-right: auto;
-   padding: 20px;
-}
-
+/* Footer */
 footer {
-   padding: 20px;
+   padding: 10px;
    width: auto;
-   background-color: var(--base-5);
-   border-radius: 0 0 10px 10px;
+   background-color: var(--base-tabs);
+   border-radius: 10px;
+}
+
+#socials {
+   margin-left: max-content;
+}
+
+.sns {
+   text-decoration: none;
+}
+
+.c1:before {
+   color: var(--a-red);
+}
+
+.c2:before {
+   color: var(--a-orange);
+}
+
+.c3:before {
+   color: var(--a-green);
+}
+
+.c4:before {
+   color: var(--a-teal);
+}
+
+.c5:before {
+   color: var(--a-blue);
 }
